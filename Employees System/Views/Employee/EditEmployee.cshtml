@@ -1,0 +1,47 @@
+﻿@model Employees_System.Models.EmployeeViewModel
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+
+<div class="modal-dialog" id="ModalPopUp">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">@ViewBag.Message</h4>
+        </div>
+        @using (Html.BeginForm("Save", "Employee", FormMethod.Post, new { @class = "form-horizontal", @id = "ModalForm" }))
+        {
+            <div class="modal-body">
+                <div class="form-horizontal" style="padding-bottom: 5px; padding-left: 15px !important ">
+
+                    <h2>Employee Details</h2>
+                    <hr />
+
+                    <div class="form-group">
+                        @Html.Label("First Name")
+                        @Html.TextBoxFor(m => m.Employee.FirstName, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.Label("Last Name")
+                        @Html.TextBoxFor(m => m.Employee.LastName, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.Label("City")
+                        @Html.TextBoxFor(m => m.Employee.City, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.Label("Zip")
+                        @Html.TextBoxFor(m => m.Employee.Zip, new { @class = "form-control" })
+                    </div>
+                    @Html.HiddenFor(m => m.Employee.Id)
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div>
+            </div>
+        }
+        </div></div>
+
+

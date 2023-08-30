@@ -1,0 +1,62 @@
+D:\Pooja Docs\Employees\Employees System\bin\Employees System.dll.config
+D:\Pooja Docs\Employees\Employees System\bin\Employees System.dll
+D:\Pooja Docs\Employees\Employees System\bin\Employees System.pdb
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\csc.exe
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\csc.exe.config
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\csc.rsp
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\csi.exe
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\csi.rsp
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\System.AppContext.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\System.Collections.Immutable.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\System.IO.FileSystem.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\System.Reflection.Metadata.dll
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\vbc.exe
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\vbc.exe.config
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\vbc.rsp
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\VBCSCompiler.exe
+D:\Pooja Docs\Employees\Employees System\bin\roslyn\VBCSCompiler.exe.config
+D:\Pooja Docs\Employees\Employees System\bin\Antlr3.Runtime.dll
+D:\Pooja Docs\Employees\Employees System\bin\EntityFramework.dll
+D:\Pooja Docs\Employees\Employees System\bin\EntityFramework.SqlServer.dll
+D:\Pooja Docs\Employees\Employees System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Pooja Docs\Employees\Employees System\bin\Microsoft.Web.Infrastructure.dll
+D:\Pooja Docs\Employees\Employees System\bin\Newtonsoft.Json.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Helpers.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Mvc.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Optimization.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Razor.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.WebPages.Deployment.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.WebPages.dll
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.WebPages.Razor.dll
+D:\Pooja Docs\Employees\Employees System\bin\WebGrease.dll
+D:\Pooja Docs\Employees\Employees System\bin\EntityFramework.xml
+D:\Pooja Docs\Employees\Employees System\bin\EntityFramework.SqlServer.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Helpers.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Mvc.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Optimization.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.Razor.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.WebPages.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.WebPages.Deployment.xml
+D:\Pooja Docs\Employees\Employees System\bin\System.Web.WebPages.Razor.xml
+D:\Pooja Docs\Employees\Employees System\bin\Newtonsoft.Json.xml
+D:\Pooja Docs\Employees\Employees System\bin\Antlr3.Runtime.pdb
+D:\Pooja Docs\Employees\Employees System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees System.csproj.CoreCompileInputs.cache
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees System.csproj.CopyComplete
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees System.dll
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees System.pdb
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees_System.Migrations.EmployeeSalaryModels.resources
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees System.csproj.GenerateResource.cache
+D:\Pooja Docs\Employees\Employees System\obj\Debug\Employees_System.Migrations.fkadded.resources

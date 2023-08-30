@@ -1,0 +1,51 @@
+﻿@model Employees_System.Models.EmployeeViewModel
+@{
+    ViewBag.Title = "Add Employee Salary";
+}
+<script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.1/jquery-ui-sliderAccess.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.1/jquery-ui-timepicker-addon.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.1/jquery-ui-timepicker-addon.js"></script>
+
+<h2>Employee Details</h2>
+<hr />
+
+
+@using (@Html.BeginForm("AddEmployeeSalary", "Employee"))
+{
+    <div class="form-group">
+        @Html.Label("Select Employee")
+        @Html.DropDownListFor(m => m.EmployeeSalary.EmployeeID, new SelectList(Model.Employees, "Id", "FirstName"), "Select Employee", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Salary Date")
+        @Html.TextBoxFor(m => m.EmployeeSalary.SalaryDate, new { @class = "form-control salary-date-picker" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Amount")
+        @Html.TextBoxFor(m => m.EmployeeSalary.Amount, new { @class = "form-control" })
+    </div>
+
+
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="~/Employee" class="btn btn-default">Back</a>
+}
+<script>
+
+    $(".salary-date-picker").datepicker(
+        {
+            dateFormat: "yy/mm/dd",
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            showButtonPanel: true,
+            changeMonth: true,
+            changeYear: true,
+            gotoCurrent: true,
+        });
+</script>

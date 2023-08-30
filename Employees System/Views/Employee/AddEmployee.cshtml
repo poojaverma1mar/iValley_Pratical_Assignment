@@ -1,0 +1,37 @@
+﻿@model Employees_System.Models.EmployeeViewModel
+@{
+    ViewBag.Title = "Add Employee";
+}
+
+
+<h2>Employee Details</h2>
+<hr />
+
+
+@using (@Html.BeginForm("Save", "Employee"))
+{
+    <div class="form-group">
+        @Html.Label("First Name")
+        @Html.TextBoxFor(m => m.Employee.FirstName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Last Name")
+        @Html.TextBoxFor(m => m.Employee.LastName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("City")
+        @Html.TextBoxFor(m => m.Employee.City, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Zip")
+        @Html.TextBoxFor(m => m.Employee.Zip, new { @class = "form-control" })
+    </div>
+    @Html.HiddenFor(m => m.Employee.Id)
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="~/Employee" class="btn btn-default" >Back</a>
+}  

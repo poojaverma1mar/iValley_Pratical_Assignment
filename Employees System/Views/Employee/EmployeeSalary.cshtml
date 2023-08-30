@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Employees_System.Models.EmployeeSalary>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+
+<div class="modal-dialog" id="ModalPopUp">
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Employee Salary For @DateTime.Now.Year</h4>
+            <button type="button" class="close"
+                    data-dismiss="modal">
+                ×
+            </button>
+        </div>
+        <div class="modal-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Salary Date</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    @foreach (var employeeSalary in Model)
+                    {
+                        <tr>
+                            <td>@employeeSalary.SalaryDate</td>
+                            <td>@employeeSalary.Amount</td>
+
+
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>
